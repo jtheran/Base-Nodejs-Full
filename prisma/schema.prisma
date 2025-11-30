@@ -1,0 +1,130 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "./generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      UserRole @default(USER)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  refreshTokens RefreshToken[]
+  auditLogs     AuditLog[]
+  notifications Notification[]
+  emailLogs     EmailLog[]
+  logs          Log[]
+  
+  @@map("users")
+}
+
+model RefreshToken {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map("refresh_tokens")
+}
+
+model Log {
+  id        String   @id @default(cuid())
+  level     String   // INFO, WARN, ERROR, DEBUG
+  message   String
+  action    String?  // Acción específica: LOGIN, CREATE, UPDATE, DELETE, etc.
+  entity    String?  // Entidad afectada: User, Post, etc.
+  entityId  String?  // ID de la entidad afectada
+  userIp    String?
+  userAgent String?
+  metadata  Json?    // Datos adicionales en JSON
+  userId    String?
+  createdAt DateTime @default(now())
+  
+  user User? @relation(fields: [userId], references: [id])
+  
+  @@map("logs")
+}
+
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  action    String
+  entity    String
+  entityId  String?
+  oldData   Json?
+  newData   Json?
+  userId    String?
+  userIp    String?
+  userAgent String?
+  createdAt DateTime @default(now())
+  
+  user User? @relation(fields: [userId], references: [id])
+  
+  @@map("audit_logs")
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  title     String
+  message   String
+  type      NotificationType
+  isRead    Boolean  @default(false)
+  userId    String
+  data      Json?
+  createdAt DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map("notifications")
+}
+
+model EmailLog {
+  id          String   @id @default(cuid())
+  to          String
+  subject     String
+  template    String?
+  status      EmailStatus @default(PENDING)
+  error       String?
+  sentAt      DateTime?
+  createdAt   DateTime @default(now())
+  userId      String?
+  
+  user User? @relation(fields: [userId], references: [id])
+  
+  @@map("email_logs")
+}
+
+enum UserRole {
+  USER
+  MODERATOR
+  ADMIN
+  SUPER_ADMIN
+}
+
+enum NotificationType {
+  INFO
+  WARNING
+  ERROR
+  SUCCESS
+}
+
+enum EmailStatus {
+  PENDING
+  SENT
+  FAILED
+  DELIVERED
+}
