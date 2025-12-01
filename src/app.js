@@ -18,10 +18,6 @@ import { initSocket } from './utils/socket.js';
             ✅ Middlewares de seguridad activados
             ✅ ES Modules configurados
 
-            📊 Próximos pasos:
-            1. Configurar base de datos: npm run db:migrate
-            2. Poblar datos iniciales: npm run db:seed
-            3. Verificar configuración: npm run config:check
         `);
   });
 

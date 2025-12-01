@@ -1,5 +1,6 @@
 import { Router } from 'express';
-import { requirePermission, requireAdmin } from '../middlewares/permission.middleware.js';
+import { requirePermission } from '../config/accessControl.js';
+import { requireAdmin } from '../middlewares/permission.middleware.js';
 import { authenticateJWT } from '../middlewares/auth.middleware.js';
 import { cleanupOldLogs, getAuditLogs, getLogStatistics, getSystemLogs } from '../controllers/audit.controller.js';
 

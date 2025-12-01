@@ -1,0 +1,90 @@
+[2025-11-30 16:43:19]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:44:44]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:18]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:19]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:19]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:19]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:20]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:20]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:45:20]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/audit-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getAuditLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:160:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:54:44]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"err is not defined","url":"/api/v1/logs/system-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: err is not defined
+    at getSystemLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:303:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:55:03]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"action is not defined","url":"/api/v1/logs/system-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: action is not defined
+    at getSystemLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:304:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 16:57:25]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"logContext is not defined","url":"/api/v1/logs/system-logs","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: logContext is not defined
+    at getSystemLogs (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/audit.controller.js:312:15)
+    at Layer.handleRequest (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\lib\layer.js:152:17)
+    at next (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\lib\route.js:157:13)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/config/accessControl.js:239:7
+    at Layer.handleRequest (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\lib\layer.js:152:17)
+    at next (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\lib\route.js:117:3)
+    at handle (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\lib\layer.js:152:17)
+    at D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\router\index.js:295:15]
+[2025-11-30 20:41:03]::[error]::[Error global no manejado]::[{"service":"backend-base","error":"page is not defined","url":"/api/v1/data/users","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: page is not defined
+    at getUsers (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/user.controller.js:75:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 20:41:47]::[error]::[Error global no manejado: page is not defined]::[{"service":"backend-base","error":"page is not defined","url":"/api/v1/data/users","method":"GET","userId":"cmijcco5s0000four2fpel2bi"}]::[
+ReferenceError: page is not defined
+    at getUsers (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/controllers/user.controller.js:75:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+[2025-11-30 20:42:33]::[error]::[Error obteniendo lista de usuarios]::[{"service":"backend-base","error":"where is not defined"}]
+[2025-11-30 21:05:17]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:08:43]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:08:43]::[error]::[unhandledRejection: ERR value is not an integer or out of range
+ReplyError: ERR value is not an integer or out of range
+    at parseError (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\redis-parser\lib\parser.js:302:14)]::[{"error":{"command":{"name":"select","args":["NaN"]}},"rejection":true,"date":"Sun Nov 30 2025 21:08:43 GMT-0500 (hora estándar de Colombia)","process":{"pid":22416,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":116293632,"heapTotal":67940352,"heapUsed":32480040,"external":12141138,"arrayBuffers":117346}},"os":{"loadavg":[0,0,0],"uptime":393611.343},"trace":[{"column":12,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\redis-parser\\lib\\parser.js","function":"parseError","line":179,"method":null,"native":false},{"column":14,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\redis-parser\\lib\\parser.js","function":"parseType","line":302,"method":null,"native":false}],"service":"backend-base"}]::[
+ReplyError: ERR value is not an integer or out of range
+    at parseError (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\redis-parser\lib\parser.js:302:14)]
+[2025-11-30 21:11:46]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:11:52]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:17:10]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:17:10]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:17:10]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:17:11]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:17:11]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:17:11]::[error]::[❌ Demasiados intentos de conexión a Redis]::[{"service":"backend-base","attempts":4,"host":"localhost","port":"6379"}]
+[2025-11-30 21:18:24]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:18:24]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:18:24]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:18:24]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:18:25]::[error]::[❌ Error de Redis]::[{"service":"backend-base","error":"WRONGPASS invalid username-password pair or user is disabled.","host":"localhost","port":"6379"}]
+[2025-11-30 21:18:25]::[error]::[❌ Demasiados intentos de conexión a Redis]::[{"service":"backend-base","attempts":4,"host":"localhost","port":"6379"}]
+[2025-11-30 21:18:43]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]
+[2025-11-30 21:19:12]::[error]::[Error conectando a Redis]::[{"service":"backend-base","error":"Redis is already connecting/connected"}]

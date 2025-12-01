@@ -10,6 +10,7 @@ import config from './config/config.js';
 import { auditMiddleware } from './middlewares/audit.middleware.js';
 import authRoutes from './routes/auth.routes.js';
 import auditRoutes from './routes/audit.routes.js';
+import userRoutes from './routes/user.routes.js';
 
 // ==========================================
 // INICIALIZACIONES
@@ -72,26 +73,27 @@ app.get('/', (req, res) => {
 // ==========================================
 app.use(`${config.app.apiPrefix}/${config.app.apiVersion}/auth`, authRoutes);
 app.use(`${config.app.apiPrefix}/${config.app.apiVersion}/logs`, auditRoutes);
+app.use(`${config.app.apiPrefix}/${config.app.apiVersion}/data`, userRoutes);
 
 // ==========================================
 // MANEJO DE ERRORES GLOBAL
 // ==========================================
 
-app.use((error, req, res, next) => {
+app.use((err, req, res, next) => {
   logger.error('Error global no manejado', {
-    error: error.message,
-    stack: error.stack,
+    error: err.message,
+    stack: err.stack,
     url: req.originalUrl,
     method: req.method,
     userId: req.user?.id
   });
 
-  const statusCode = error.statusCode || 500;
-  const message = error.message || 'Internal Server Error';
+  const statusCode = err.statusCode || 500;
+  const message = err.message || 'Internal Server Error';
 
   res.status(statusCode).json({
-    error: message,
-    ...(config.app.isDevelopment && { stack: error.stack }),
+    err: message,
+    ...(config.app.isDevelopment && { stack: err.stack }),
   });
 });
 

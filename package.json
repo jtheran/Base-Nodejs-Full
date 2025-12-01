@@ -34,6 +34,7 @@
     "@prisma/adapter-better-sqlite3": "^7.0.1",
     "@prisma/client": "^7.0.1",
     "@prisma/instrumentation": "^7.0.1",
+    "accesscontrol": "^2.2.1",
     "bcryptjs": "^3.0.3",
     "bull": "^4.16.5",
     "bull-board": "^1.7.2",

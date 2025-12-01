@@ -1,6 +1,7 @@
 // src/services/auditService.js
 import prisma from '../libs/prisma.js';
 import { logger } from '../logs/logger.js';
+import { getClientIp } from '../utils/functionsAUX.js';
 
 /**
 * Crear registro de auditoría manualmente
@@ -72,99 +73,142 @@ export const createAuditLog = async (req, res) => {
 * Obtener logs de auditoría con filtros
 */
 export const getAuditLogs = async (req, res) => {
+    // Variables para logging
+    let logContext = {};
+    
     try {
-        const { filters = {}, pagination = {} } = req.params;  
-        const {
+        // Extraer y validar parámetros
+        const { 
             action,
             entity,
             entityId,
             userId,
             startDate,
             endDate,
-            search
-        } = filters;
-
-        const {
+            search,
             page = 1,
             limit = 50,
-            sortBy = 'createdAt',
-            sortOrder = 'desc'
-        } = pagination;
+        } = req.query;
 
-        const skip = (page - 1) * limit;
+        // Preparar contexto para logs
+        logContext = {
+            action: action || 'all',
+            entity: entity || 'all',
+            entityId: entityId || 'none',
+            userId: userId || 'none',
+            userIp: req.ip || 'unknown',
+            userAgent: req.get('User-Agent') || 'unknown',
+            requestedBy: req.user?.id || 'anonymous'
+        };
 
+        // Validar parámetros numéricos
+        const pageNum = Math.max(1, parseInt(page));
+        const limitNum = Math.min(Math.max(1, parseInt(limit)), 100); // Máximo 100 registros
+        const skip = (pageNum - 1) * limitNum;
+
+        // Construir query where
         const where = {};
 
+        // Filtros exactos
         if (action) where.action = action;
         if (entity) where.entity = entity;
         if (entityId) where.entityId = entityId;
         if (userId) where.userId = userId;
 
+        // Filtro de fecha
         if (startDate || endDate) {
             where.createdAt = {};
-            if (startDate) where.createdAt.gte = new Date(startDate);
-            if (endDate) where.createdAt.lte = new Date(endDate);
+            if (startDate) {
+                const start = new Date(startDate);
+                if (!isNaN(start)) where.createdAt.gte = start;
+            }
+            if (endDate) {
+                const end = new Date(endDate);
+                if (!isNaN(end)) where.createdAt.lte = end;
+            }
         }
 
-        if (search) {
+        // Búsqueda textual
+        if (search && search.trim()) {
             where.OR = [
-            { entity: { contains: search, mode: 'insensitive' } },
-            { action: { contains: search, mode: 'insensitive' } },
-            { userIp: { contains: search, mode: 'insensitive' } },
-            { userAgent: { contains: search, mode: 'insensitive' } }
+                { entity: { contains: search.trim(), mode: 'insensitive' } },
+                { action: { contains: search.trim(), mode: 'insensitive' } },
+                { userIp: { contains: search.trim(), mode: 'insensitive' } },
+                { userAgent: { contains: search.trim(), mode: 'insensitive' } }
             ];
         }
 
+        // Ejecutar consultas
         const [logs, total] = await Promise.all([
             prisma.auditLog.findMany({
-            where,
-            skip,
-            take: limit,
-            orderBy: { [sortBy]: sortOrder },
-            include: {
-                user: {
-                select: {
-                    id: true,
-                    email: true,
-                    name: true,
-                    role: true
+                where,
+                skip,
+                take: limitNum,
+                include: {
+                    user: {
+                        select: {
+                            id: true,
+                            email: true,
+                            name: true,
+                            role: true
+                        }
+                    }
                 }
-                }
-            }
             }),
             prisma.auditLog.count({ where })
         ]);
 
+        // Preparar respuesta
         const auditLogs = {
-            logs,
             pagination: {
-                page,
-                limit,
+                page: pageNum,
+                limit: limitNum,
                 total,
-                pages: Math.ceil(total / limit)
-            }
+                pages: Math.ceil(total / limitNum),
+                hasNext: pageNum < Math.ceil(total / limitNum),
+                hasPrev: pageNum > 1
+            },
+            filters: {
+                action,
+                entity,
+                entityId,
+                userId,
+                startDate,
+                endDate,
+                search
+            },
+            logs
         };
 
-        logger.info('lista de logs de auditorias', {
-            action,
-            entity,
-            entityId,
-            userId,
-            userAgent,
+        // Log exitoso
+        logger.info('Lista de logs de auditoría obtenida exitosamente', {
+            ...logContext,
+            totalLogs: total,
+            page: pageNum,
+            limit: limitNum,
+            filtersApplied: Object.keys(where).length
         });
-        return res.status(200).json({msg: 'lista de logs de auditorias ', auditLogs });
+        
+        return res.status(200).json({ 
+            success: true,
+            message: 'Logs de auditoría obtenidos exitosamente', 
+            data: auditLogs 
+        });
 
-    } catch (error) {
-        logger.error('Error lista de logs de auditorias ', {
+    } catch (err) {
+        // Log de error con contexto completo
+        logger.error('Error crítico obteniendo logs de auditoría', {
+            ...logContext,
             error: err.message,
-            action,
-            entity,
-            entityId,
-            userId,
-            userIp,
-            userAgent,
+            stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
         });
-        return res.status(500).json({msg: 'ERROR INTERNO DEL SERVIDOR: ' + err.message});
+        
+        return res.status(500).json({ 
+            success: false,
+            message: 'Error interno del servidor al obtener logs de auditoría',
+            error: process.env.NODE_ENV === 'development' ? err.message : undefined,
+            code: 'AUDIT_LOGS_FETCH_ERROR'
+        });
     }
 }
 
@@ -173,6 +217,8 @@ export const getAuditLogs = async (req, res) => {
 */
 export const getSystemLogs = async (req, res) => {
     try {
+        let logContext = {};
+
         const { filters = {}, pagination = {} } = req.params;  
         const {
             level,
@@ -192,6 +238,15 @@ export const getSystemLogs = async (req, res) => {
         } = pagination;
 
         const skip = (page - 1) * limit;
+
+        logContext = {
+            action: action || 'all',
+            entity: entity || 'all',
+            userId: userId || 'none',
+            userIp: getClientIp(req),
+            userAgent: req.get('User-Agent') || 'unknown',
+            requestedBy: req.user?.id || 'anonymous'
+        };
 
         const where = {};
 
@@ -236,32 +291,26 @@ export const getSystemLogs = async (req, res) => {
         ]);
 
         const auditLogs =  {
-            logs,
             pagination: {
                 page,
                 limit,
                 total,
                 pages: Math.ceil(total / limit)
-            }
+            },
+            logs
         };
 
         logger.info('lista de logs de auditorias del sistema', {
-            action,
-            entity,
-            userId,
-            userAgent,
+            ...logContext,
+            totalLogs: total,
+            filtersApplied: Object.keys(where).length
         });
         return res.status(200).json({msg: 'lista de logs de auditorias del sistema', auditLogs });
 
-    } catch (error) {
+    } catch (err) {
         logger.error('Error lista de logs de auditorias del sistema', {
             error: err.message,
-            action,
-            entity,
-            entityId,
-            userId,
-            userIp,
-            userAgent,
+           ...logContext,
         });
         return res.status(500).json({msg: 'ERROR INTERNO DEL SERVIDOR: ' + err.message});
     }
@@ -358,18 +407,33 @@ export const getLogStatistics = async (req, res) => {
             })
         ]);
 
+        const transformedLevelStats = levelStats.map(stat => ({
+            level: stat.level,
+            total: stat._count._all
+        }));
+
+        const transformedActionStats = actionStats.map(stat => ({
+            action: stat.action,
+            total: stat._count._all
+        }));
+
+        const transformedEntityStats = entityStats.map(stat => ({
+            entity: stat.entity,
+            total: stat._count._all
+        }));
+
         const auditLogs =  {
             period: `${days} days`,
-            levelStats,
-            actionStats,
-            entityStats
+            levelStats: transformedLevelStats,
+            actionStats: transformedActionStats,
+            entityStats: transformedEntityStats
         };
 
         logger.info('lista de estadisticas de logs de auditoria', {
             period: `${days} days`,
-            levelStats,
-            actionStats,
-            entityStats
+            levelStats: transformedLevelStats,
+            actionStats: transformedActionStats,
+            entityStats: transformedEntityStats
         });
         return res.status(200).json({ msg: 'lista de estadisticas de logs de auditoria', auditLogs });
 

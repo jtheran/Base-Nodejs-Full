@@ -36,19 +36,19 @@ const logFormat = winston.format.combine(
   winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
   winston.format.errors({ stack: true }),
   winston.format.printf(({ timestamp, level, message, stack, ...meta }) => {
-    let formattedMessage = `[${timestamp}]`.gray + ` [${level.toUpperCase()}]`.bold;
-    
+    let formattedMessage = `[${timestamp}]::` + `[${level}]::`;
+
     // Mensaje principal
-    formattedMessage += ` ${message}`;
+    formattedMessage += `[${message}]`;
     
     // Metadata adicional
     if (Object.keys(meta).length > 0 && level !== 'audit') {
-      formattedMessage += ` | ${JSON.stringify(meta)}`;
+      formattedMessage += `::[${JSON.stringify(meta)}]`;
     }
     
     // Stack trace para errores
     if (stack && level === 'error') {
-      formattedMessage += `\n${stack}`;
+      formattedMessage += `::[\n${stack}]`;
     }
     
     return formattedMessage;
@@ -59,7 +59,7 @@ const logFormat = winston.format.combine(
 const auditFormat = winston.format.combine(
   winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
   winston.format.printf(({ timestamp, message, action, entity, entityId, userId, userIp, userAgent }) => {
-    let logMessage = `[${timestamp}]`.gray + ` [AUDIT]`.cyan.bold;
+    let logMessage = `[${timestamp}]::` + ` [AUDIT]::`;
     logMessage += ` ${message}`;
     
     if (action) logMessage += ` | Action: ${action}`;
@@ -126,7 +126,7 @@ class PrismaTransport extends Transport {
 
 // Transporte para archivo de auditoría
 const auditFileTransport = new winston.transports.File({
-  filename: `${__dirname}/../../logs/audit.log`,
+  filename: `${__dirname}/audit.log`,
   level: 'audit',
   format: auditFormat,
   maxsize: 5242880, // 5MB
@@ -135,7 +135,7 @@ const auditFileTransport = new winston.transports.File({
 
 // Transporte para archivo de errores
 const errorFileTransport = new winston.transports.File({
-  filename: `${__dirname}/../../logs/error.log`,
+  filename: `${__dirname}/error.log`,
   level: 'error',
   maxsize: 5242880, // 5MB
   maxFiles: 5,
@@ -143,7 +143,7 @@ const errorFileTransport = new winston.transports.File({
 
 // Transporte para archivo combinado
 const combinedFileTransport = new winston.transports.File({
-  filename: `${__dirname}/../../logs/combined.log`,
+  filename: `${__dirname}/combined.log`,
   maxsize: 5242880, // 5MB
   maxFiles: 5,
 });
@@ -167,17 +167,18 @@ const logger = winston.createLogger({
     consoleTransport,
     errorFileTransport,
     combinedFileTransport,
+    auditFileTransport,
     new PrismaTransport({ level: 'info' }),
   ],
   exceptionHandlers: [
     new winston.transports.File({ 
-      filename: `${__dirname}/../../logs/exceptions.log` 
+      filename: `${__dirname}/exceptions.log` 
     }),
     consoleTransport
   ],
   rejectionHandlers: [
     new winston.transports.File({ 
-      filename: `${__dirname}/../../logs/rejections.log` 
+      filename: `${__dirname}/rejections.log` 
     }),
     consoleTransport
   ],
@@ -198,7 +199,7 @@ const auditLogger = winston.createLogger({
 import fs from 'fs';
 import path from 'path';
 
-const logsDir = path.join(__dirname, '../../logs');
+const logsDir = path.join(__dirname);
 if (!fs.existsSync(logsDir)) {
   fs.mkdirSync(logsDir, { recursive: true });
 }

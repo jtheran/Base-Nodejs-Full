@@ -1,5 +1,5 @@
 import { AccessControl } from 'accesscontrol';
-import constants from './constants.js';
+import constants from './constant.js';
 
 // Inicializar AccessControl
 const ac = new AccessControl();
@@ -218,7 +218,7 @@ const can = (role, action, resource) => {
 const requirePermission = (action, resource, options = {}) => {
   return (req, res, next) => {
     try {
-      const userRole = req.user?.role || ROLES.USER;
+      const userRole = req.user?.role || constants.ROLES.USER;
       
       const result = checkPermission(userRole, action, resource, {
         user: req.user,

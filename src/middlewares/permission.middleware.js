@@ -1,6 +1,6 @@
 // src/middleware/permissions.js
 import { requirePermission, requireOwnership, can } from '../config/accessControl.js';
-import constants from '../config/constants.js';
+import constants from '../config/constant.js';
 
 // ==========================================
 // MIDDLEWARES ESPECÍFICOS POR RECURSO

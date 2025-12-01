@@ -1,6 +1,6 @@
 // src/middleware/audit.js
 import { auditLogger } from '../logs/logger.js';
-import constants from '../config/constants.js';
+import constants from '../config/constant.js';
 
 /**
  * Middleware para auditoría automática de requests HTTP

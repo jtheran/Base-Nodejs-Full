@@ -1,0 +1,367 @@
+[2025-11-30 16:31:50]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:31:50]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 163ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:31:50]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 163ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:32:15]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:32:15]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 159ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:32:15]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 159ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:32:22]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:32:22]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 85ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:32:22]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 86ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:35:17]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:35:17]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 159ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:35:17]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 159ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:35:32]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:35:32]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 153ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:35:32]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 154ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:36:08]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:36:08]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 162ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:36:08]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 163ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:37:20]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:37:20]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 16:37:20]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 159ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:37:20]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 160ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:12]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:12]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 16:38:12]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 158ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:12]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 158ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:27]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:27]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 16:38:27]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 155ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:27]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 156ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:50]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:50]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 16:38:50]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 160ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:38:50]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 160ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:39:02]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:39:02]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 16:39:02]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 157ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:39:02]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 158ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:42:18]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 11ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:42:18]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 12ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:42:55]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 79ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:42:55]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 81ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:43:19]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:43:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 88ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:43:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 89ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:44:44]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:44:44]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 81ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:44:44]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 81ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:18]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:18]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 78ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:18]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 79ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:19]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 13ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 13ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:19]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 10ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 10ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:19]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 12ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:19]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 12ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:20]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:20]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 9ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:20]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 9ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:20]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:20]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 11ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:20]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 11ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:20]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:45:20]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 9ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:45:20]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 500 - 9ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:51:18]:: [AUDIT]:: Lista de logs de auditoría obtenida exitosamente | Action: all | Entity: all | EntityID: none | UserID: none | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:51:18]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 200 - 82ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:51:18]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 200 - 82ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:52:30]:: [AUDIT]:: Lista de logs de auditoría obtenida exitosamente | Action: all | Entity: all | EntityID: none | UserID: none | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:52:31]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 200 - 11ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:52:31]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 200 - 12ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:53:59]:: [AUDIT]:: Lista de logs de auditoría obtenida exitosamente | Action: all | Entity: all | EntityID: none | UserID: none | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:53:59]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 200 - 78ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:53:59]:: [AUDIT]:: HTTP GET /api/v1/logs/audit-logs - 200 - 79ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:54:44]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:54:44]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 500 - 18ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:54:44]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 500 - 19ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:55:03]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:55:03]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 500 - 79ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:55:03]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 500 - 80ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:57:25]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 16:57:25]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 500 - 81ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:57:25]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 500 - 82ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:58:35]:: [AUDIT]:: lista de logs de auditorias del sistema | Action: all | Entity: all | UserID: none | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:58:35]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 200 - 88ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:58:35]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 200 - 89ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:59:28]:: [AUDIT]:: lista de logs de auditorias del sistema | Action: all | Entity: all | UserID: none | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:59:28]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 200 - 91ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 16:59:28]:: [AUDIT]:: HTTP GET /api/v1/logs/system-logs - 200 - 92ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 17:00:05]:: [AUDIT]:: lista de estadisticas de logs de auditoria
+[2025-11-30 17:00:05]:: [AUDIT]:: HTTP GET /api/v1/logs/stats-logs - 200 - 18ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 17:00:05]:: [AUDIT]:: HTTP GET /api/v1/logs/stats-logs - 200 - 18ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 17:03:36]:: [AUDIT]:: lista de estadisticas de logs de auditoria
+[2025-11-30 17:03:36]:: [AUDIT]:: HTTP GET /api/v1/logs/stats-logs - 200 - 79ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 17:03:36]:: [AUDIT]:: HTTP GET /api/v1/logs/stats-logs - 200 - 79ms | Action: READ | Entity: LOGS | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:35:51]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:35:51]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 20:35:52]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 156ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:35:52]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 157ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:36:22]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 2ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:36:22]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 2ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:22]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:22]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:23]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:23]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:23]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:23]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:24]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:25]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:25]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:25]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:25]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:25]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 0ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:37:25]:: [AUDIT]:: HTTP GET /api/v1/data/users - 404 - 1ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:40:35]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:41:03]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:41:03]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:41:03]:: [AUDIT]:: Error global no manejado | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 20:41:03]:: [AUDIT]:: HTTP GET /api/v1/data/users - 500 - 16ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:41:03]:: [AUDIT]:: HTTP GET /api/v1/data/users - 500 - 16ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:41:37]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:41:41]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:41:44]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:41:47]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:41:47]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:41:47]:: [AUDIT]:: Error global no manejado: page is not defined | UserID: cmijcco5s0000four2fpel2bi
+[2025-11-30 20:41:47]:: [AUDIT]:: HTTP GET /api/v1/data/users - 500 - 15ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:41:47]:: [AUDIT]:: HTTP GET /api/v1/data/users - 500 - 16ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:42:02]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:42:03]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:42:30]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:42:33]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:42:33]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:42:33]:: [AUDIT]:: Error obteniendo lista de usuarios
+[2025-11-30 20:42:33]:: [AUDIT]:: HTTP GET /api/v1/data/users - 500 - 24ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:42:33]:: [AUDIT]:: HTTP GET /api/v1/data/users - 500 - 25ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:43:29]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:43:39]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:43:41]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:43:47]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:44:01]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:44:07]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:44:08]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:44:39]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:44:41]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:44:52]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:03]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:14]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:16]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:18]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:23]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:29]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:52]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:45:59]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:46:01]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:46:05]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:46:08]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:46:20]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:46:25]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:46:53]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:46:53]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:46:53]:: [AUDIT]:: Redis no disponible, omitiendo guardado en cache
+[2025-11-30 20:46:53]:: [AUDIT]:: 💾 Lista de usuarios guardada en cache
+[2025-11-30 20:46:53]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 23ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:46:53]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 24ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:47:33]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:48:00]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:48:00]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:48:00]:: [AUDIT]:: Redis no disponible, omitiendo guardado en cache
+[2025-11-30 20:48:00]:: [AUDIT]:: 💾 Lista de usuarios guardada en cache
+[2025-11-30 20:48:00]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 22ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:48:00]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 23ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:51:45]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:51:45]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:51:45]:: [AUDIT]:: Redis no disponible, omitiendo guardado en cache
+[2025-11-30 20:51:45]:: [AUDIT]:: 💾 Lista de usuarios guardada en cache
+[2025-11-30 20:51:45]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 5ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:51:45]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 5ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:53:12]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:53:17]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:53:23]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 20:53:55]:: [AUDIT]:: Redis no disponible, omitiendo cache
+[2025-11-30 20:53:55]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 20:53:55]:: [AUDIT]:: Redis no disponible, omitiendo guardado en cache
+[2025-11-30 20:53:55]:: [AUDIT]:: 💾 Lista de usuarios guardada en cache
+[2025-11-30 20:53:55]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 24ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 20:53:55]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 25ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:00:18]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:01:01]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:01:33]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:01:40]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:02:00]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:02:08]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:02:12]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:03:09]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:03:11]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:03:12]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:03:21]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:03:29]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:03:33]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:04:06]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:04:44]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:05:17]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:08:43]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:08:43]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:08:43]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:08:43]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:08:43]:: [AUDIT]:: 🚀 Redis listo para recibir comandos
+[2025-11-30 21:11:46]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:11:46]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:11:46]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:11:46]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:11:46]:: [AUDIT]:: 🚀 Redis listo para recibir comandos
+[2025-11-30 21:11:52]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:11:52]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:11:52]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:11:52]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:11:52]:: [AUDIT]:: 🚀 Redis listo para recibir comandos
+[2025-11-30 21:11:59]:: [AUDIT]:: HTTP GET /api/v1/data/users - 401 - 6ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:11:59]:: [AUDIT]:: HTTP GET /api/v1/data/users - 401 - 7ms | Action: READ | Entity: DATA | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:03]:: [AUDIT]:: login exitoso para el user: qa@lsv-tech.com | Action: LOGIN | Entity: SUPER_ADMIN | EntityID: cmijcco5s0000four2fpel2bi | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:03]:: [AUDIT]:: Usuario logueado exitosamente | Action: LOGIN | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1
+[2025-11-30 21:12:03]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 107ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:03]:: [AUDIT]:: HTTP POST /api/v1/auth/login - 200 - 107ms | Action: CREATE | Entity: AUTH | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:15]:: [AUDIT]:: ❌ Cache MISS
+[2025-11-30 21:12:15]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 21:12:15]:: [AUDIT]:: 💾 Guardado en cache
+[2025-11-30 21:12:15]:: [AUDIT]:: 💾 Lista de usuarios guardada en cache
+[2025-11-30 21:12:15]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 12ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:15]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 12ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:22]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:22]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:22]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:22]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:29]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:29]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:29]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 4ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:29]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 4ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:29]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:29]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:29]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:29]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:30]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:30]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:30]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 2ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:30]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:30]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 4ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:31]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 5ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 5ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:31]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:31]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:31]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:31]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:31]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:31]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:32]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:32]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:32]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:32]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 3ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:32]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:12:32]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:12:32]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 4ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:12:32]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 4ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:17:10]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:17:10]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:17:10]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:17:10]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔄 Reintentando conexión a Redis (intento 1)
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔄 Reconectando a Redis
+[2025-11-30 21:17:10]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:17:10]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔄 Reintentando conexión a Redis (intento 2)
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:17:10]:: [AUDIT]:: 🔄 Reconectando a Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: 🔄 Reintentando conexión a Redis (intento 3)
+[2025-11-30 21:17:11]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:17:11]:: [AUDIT]:: 🔄 Reconectando a Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: ❌ Demasiados intentos de conexión a Redis
+[2025-11-30 21:17:11]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:17:11]:: [AUDIT]:: 🔚 Conexión a Redis finalizada
+[2025-11-30 21:18:24]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:18:24]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Reintentando conexión a Redis (intento 1)
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Reconectando a Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Reintentando conexión a Redis (intento 2)
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Reconectando a Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Reintentando conexión a Redis (intento 3)
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:18:24]:: [AUDIT]:: 🔄 Reconectando a Redis
+[2025-11-30 21:18:25]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:18:25]:: [AUDIT]:: ❌ Error de Redis
+[2025-11-30 21:18:25]:: [AUDIT]:: ❌ Demasiados intentos de conexión a Redis
+[2025-11-30 21:18:25]:: [AUDIT]:: 🔌 Conexión a Redis cerrada
+[2025-11-30 21:18:25]:: [AUDIT]:: 🔚 Conexión a Redis finalizada
+[2025-11-30 21:18:43]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:18:43]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:18:43]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:18:43]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:18:43]:: [AUDIT]:: 🚀 Redis listo para recibir comandos
+[2025-11-30 21:19:12]:: [AUDIT]:: 🚀 Iniciando conexión Redis...
+[2025-11-30 21:19:12]:: [AUDIT]:: 🔄 Inicializando cliente Redis...
+[2025-11-30 21:19:12]:: [AUDIT]:: Error conectando a Redis
+[2025-11-30 21:19:12]:: [AUDIT]:: ✅ Conectado a Redis
+[2025-11-30 21:19:12]:: [AUDIT]:: 🚀 Redis listo para recibir comandos
+[2025-11-30 21:19:58]:: [AUDIT]:: ❌ Cache MISS
+[2025-11-30 21:19:58]:: [AUDIT]:: 🔄 Cache miss, obteniendo usuarios de BD
+[2025-11-30 21:19:58]:: [AUDIT]:: 💾 Guardado en cache
+[2025-11-30 21:19:58]:: [AUDIT]:: 💾 Lista de usuarios guardada en cache
+[2025-11-30 21:19:58]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 24ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:19:58]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 25ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:20:02]:: [AUDIT]:: ✅ Cache HIT
+[2025-11-30 21:20:02]:: [AUDIT]:: 📦 Usuarios obtenidos de cache
+[2025-11-30 21:20:02]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 6ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)
+[2025-11-30 21:20:02]:: [AUDIT]:: HTTP GET /api/v1/data/users - 200 - 6ms | Action: READ | Entity: DATA | UserID: cmijcco5s0000four2fpel2bi | IP: 127.0.0.1 | Agent: Thunder Client (https://www.thunderclient.com)

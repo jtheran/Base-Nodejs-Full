@@ -1,6 +1,8 @@
 import { generateAccessToken, generateRefreshToken, verifyRefreshToken } from '../libs/jwt.js';
 import prisma from '../libs/prisma.js';
+import { getClientIp } from '../utils/functionsAUX.js';
 import { encryptPass, matchPass } from '../libs/bcrypt.js';
+import { auditLogger, logger } from '../logs/logger.js';
 
 export const register =async (req, res) => {
     try{
@@ -95,6 +97,29 @@ export const login = async (req, res) => {
             isActive: user.isActive,
         };
 
+        if(accessToken && refreshToken){
+            auditLogger.log('audit', {
+                message: `login exitoso para el user: ${email}`,
+                action: 'LOGIN',
+                entity: user.role,
+                entityId: user.id,
+                userId: user.id,
+                userIp: getClientIp(req),
+                userAgent: req.get('User-Agent'),
+                metadata: {
+                    user: userResponse,
+                    loginMethod: 'email and password'
+                }
+            });
+        }
+
+        logger.info('Usuario logueado exitosamente', {
+            userId: user.id,
+            action: 'LOGIN',
+            email: user.email,
+            userIp: getClientIp(req)
+        });
+
         return res.status(200).json({
             msg: 'usuario logueado exitosamente',
             user: userResponse,
@@ -103,6 +128,24 @@ export const login = async (req, res) => {
         });
 
     } catch (err) {
+            auditLogger.log('audit', {
+            message: `Intento de login fallido para ${req.body.email}`,
+            action: 'LOGIN_FAILED',
+            entity: 'User',
+            userIp: getClientIp(req),
+            userAgent: req.get('User-Agent'),
+            metadata: {
+            email: req.body.email,
+            reason: err.message
+            }
+        });
+
+        logger.warn('Failed login attempt', {
+            email: req.body.email,
+            action: 'LOGIN_FAILED',
+            userIp: getClientIp(req),
+            error: err.message
+        });
         return res.status(500).json({ msg: 'Error Interno del Servidor: ' + err.message });
     }
 };
