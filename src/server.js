@@ -7,7 +7,10 @@ import { logger } from './logs/logger.js';
 import hpp from 'hpp';
 import http from 'http';
 import config from './config/config.js';
+import { getServerMetrics } from './utils/metrics.js';
 import { auditMiddleware } from './middlewares/audit.middleware.js';
+import { requireAdmin } from './middlewares/permission.middleware.js';
+import { authenticateJWT } from './middlewares/auth.middleware.js';
 import authRoutes from './routes/auth.routes.js';
 import auditRoutes from './routes/audit.routes.js';
 import userRoutes from './routes/user.routes.js';
@@ -42,12 +45,14 @@ app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 app.use(xss()); // XSS protection
 app.use(hpp()); // Parameter pollution protection
 app.use(auditMiddleware);
+
 // ==========================================
 // RUTAS BASE
 // ==========================================
 
+
 // Health check
-app.get(`${config.app.apiPrefix}/${config.app.apiVersion}/health`, (req, res) => {
+app.get(`${config.app.apiPrefix}/${config.app.apiVersion}/system/health`, authenticateJWT, requireAdmin, (req, res) => {
   res.status(200).json({
     status: 'OK',
     message: '🚀 Backend Base API Active',
@@ -56,6 +61,9 @@ app.get(`${config.app.apiPrefix}/${config.app.apiVersion}/health`, (req, res) =>
     version: process.env.npm_package_version || '1.0.0',
   });
 });
+
+app.get(`${config.app.apiPrefix}/${config.app.apiVersion}/system/status`, authenticateJWT, requireAdmin, getServerMetrics);
+
 
 // Root endpoint
 app.get('/', (req, res) => {

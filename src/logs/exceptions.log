@@ -142,3 +142,131 @@ TypeError: Cannot assign to read only property 'isConnected' of object '#<RedisC
     at EventEmitter.<anonymous> (file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/libs/redisClient.js:101:24)
     at EventEmitter.emit (node:events:508:28)
     at process.processTicksAndRejections (node:internal/process/task_queues:85:11)]
+[2025-12-01 09:46:48]::[error]::[uncaughtException: Port number is mandatory when cluster option is disabled.
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 09:46:48 GMT-0500 (hora estándar de Colombia)","process":{"pid":5744,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":103788544,"heapTotal":61779968,"heapUsed":32059216,"external":10755311,"arrayBuffers":107775}},"os":{"loadavg":[0,0,0],"uptime":439096.062},"trace":[{"column":11,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\lib\\options.checker.js","function":"Object.check","line":28,"method":"check","native":false},{"column":28,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\index.js","function":"expressMetrics","line":11,"method":null,"native":false},{"column":9,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":46,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 09:48:04]::[error]::[uncaughtException: Port number is mandatory when cluster option is disabled.
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 09:48:04 GMT-0500 (hora estándar de Colombia)","process":{"pid":12836,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":106508288,"heapTotal":62304256,"heapUsed":38019296,"external":10937780,"arrayBuffers":290244}},"os":{"loadavg":[0,0,0],"uptime":439172.421},"trace":[{"column":11,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\lib\\options.checker.js","function":"Object.check","line":28,"method":"check","native":false},{"column":28,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\index.js","function":"expressMetrics","line":11,"method":null,"native":false},{"column":9,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":46,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 09:51:31]::[error]::[uncaughtException: Port number is mandatory when cluster option is disabled.
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 09:51:31 GMT-0500 (hora estándar de Colombia)","process":{"pid":13012,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":105971712,"heapTotal":61779968,"heapUsed":37720232,"external":10755311,"arrayBuffers":107775}},"os":{"loadavg":[0,0,0],"uptime":439378.593},"trace":[{"column":11,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\lib\\options.checker.js","function":"Object.check","line":28,"method":"check","native":false},{"column":28,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\index.js","function":"expressMetrics","line":11,"method":null,"native":false},{"column":9,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":46,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 09:52:07]::[error]::[uncaughtException: Port number is mandatory when cluster option is disabled.
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 09:52:07 GMT-0500 (hora estándar de Colombia)","process":{"pid":2388,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":106942464,"heapTotal":61517824,"heapUsed":38258064,"external":10755311,"arrayBuffers":107775}},"os":{"loadavg":[0,0,0],"uptime":439414.64},"trace":[{"column":11,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\lib\\options.checker.js","function":"Object.check","line":28,"method":"check","native":false},{"column":28,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\index.js","function":"expressMetrics","line":11,"method":null,"native":false},{"column":9,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":46,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 09:52:41]::[error]::[uncaughtException: Port number is mandatory when cluster option is disabled.
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 09:52:41 GMT-0500 (hora estándar de Colombia)","process":{"pid":8184,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":106061824,"heapTotal":61779968,"heapUsed":37976960,"external":10755311,"arrayBuffers":107775}},"os":{"loadavg":[0,0,0],"uptime":439449.281},"trace":[{"column":11,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\lib\\options.checker.js","function":"Object.check","line":28,"method":"check","native":false},{"column":28,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\index.js","function":"expressMetrics","line":11,"method":null,"native":false},{"column":9,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":46,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 09:57:55]::[error]::[uncaughtException: Port number is mandatory when cluster option is disabled.
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 09:57:55 GMT-0500 (hora estándar de Colombia)","process":{"pid":3592,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":106708992,"heapTotal":61517824,"heapUsed":38530976,"external":10755311,"arrayBuffers":107775}},"os":{"loadavg":[0,0,0],"uptime":439762.5},"trace":[{"column":11,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\lib\\options.checker.js","function":"Object.check","line":28,"method":"check","native":false},{"column":28,"file":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\node_modules\\express-metrics\\index.js","function":"expressMetrics","line":11,"method":null,"native":false},{"column":9,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":46,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+TypeError: Port number is mandatory when cluster option is disabled.
+    at Object.check (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\lib\options.checker.js:28:11)
+    at expressMetrics (D:\PROYECTOS-PERSONALES\Back-Base-NodeJS\node_modules\express-metrics\index.js:11:28)
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:46:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 11:17:06]::[error]::[uncaughtException: i is not defined
+ReferenceError: i is not defined
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/utils/metrics.js:4:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 11:17:06 GMT-0500 (hora estándar de Colombia)","process":{"pid":11860,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":86446080,"heapTotal":36245504,"heapUsed":24437176,"external":10686451,"arrayBuffers":69441}},"os":{"loadavg":[0,0,0],"uptime":444514.109},"trace":[{"column":1,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/utils/metrics.js","function":null,"line":4,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+ReferenceError: i is not defined
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/utils/metrics.js:4:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]
+[2025-12-01 11:22:45]::[error]::[uncaughtException: au is not defined
+ReferenceError: au is not defined
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:56:68
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]::[{"error":{},"exception":true,"date":"Mon Dec 01 2025 11:22:45 GMT-0500 (hora estándar de Colombia)","process":{"pid":8808,"uid":null,"gid":null,"cwd":"D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS","execPath":"C:\\nvm4w\\nodejs\\node.exe","version":"v24.9.0","argv":["C:\\nvm4w\\nodejs\\node.exe","D:\\PROYECTOS-PERSONALES\\Back-Base-NodeJS\\src\\app.js"],"memoryUsage":{"rss":102109184,"heapTotal":59650048,"heapUsed":31504336,"external":10910917,"arrayBuffers":281315}},"os":{"loadavg":[0,0,0],"uptime":444853.406},"trace":[{"column":68,"file":"file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js","function":null,"line":56,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":377,"method":"run","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false},{"column":26,"file":"node:internal/modules/esm/loader","function":"async onImport.tracePromise.__proto__","line":689,"method":"__proto__","native":false},{"column":5,"file":"node:internal/modules/run_main","function":"async asyncRunEntryPointWithESMLoader","line":101,"method":null,"native":false}],"service":"backend-base"}]::[
+ReferenceError: au is not defined
+    at file:///D:/PROYECTOS-PERSONALES/Back-Base-NodeJS/src/server.js:56:68
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:689:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)]

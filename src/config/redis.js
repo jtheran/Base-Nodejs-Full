@@ -3,7 +3,7 @@ import config from '../config/config.js';
 const redisConfig = {
     // Configuración básica de conexión
     host: config.redis.host,
-    port: config.redis.port,
+    port: parseInt(config.redis.port),
     password: config.redis.password,
     username: config.redis.username,
     db: config.redis.db,
@@ -14,7 +14,12 @@ const redisConfig = {
     retryDelayOnFailover: 100,
     maxRetriesPerRequest: 3,
     enableReadyCheck: true,
-  
+
+    // Cluster mode (si usas clúster)
+    cluster: process.env.REDIS_CLUSTER === 'true' || false,
+    clusterNodes: process.env.REDIS_CLUSTER_NODES 
+        ? JSON.parse(process.env.REDIS_CLUSTER_NODES) 
+        : null,
     // Configuración de reconnect
     retryStrategy: (times) => {
       if (times > 5) {
